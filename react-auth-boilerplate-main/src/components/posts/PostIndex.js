@@ -3,11 +3,12 @@ import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-
+//be consistent with your choices - if you're going to use single quotes, use them everywhere!
 import { Link } from "react-router-dom";
 import { postIndex } from "../../api/post";
 import LoadingScreen from "../shared/LoadingScreen";
 import { Container } from "react-bootstrap";
+//comment out or delete unused code/imports
 import { style } from "@mui/system";
 
 const styles = {

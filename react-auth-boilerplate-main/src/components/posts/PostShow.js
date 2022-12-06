@@ -164,6 +164,7 @@ const PostShow = ({ user, msgAlert}) =>{
                                handleUpdatePost={handleUpdatePost}
                            />
                        )}
+                       //make sure you're paying attention to your white space and indentation
                           
                           
                            <button onClick={handleDeletePost}className="btn btn-outline-dark" >delete</button>
